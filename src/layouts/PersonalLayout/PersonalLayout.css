@@ -1,0 +1,18 @@
+.personal_content-sidebar {
+    display: flex;
+    /* gap: 20px; */
+    width: 1400px;
+  } 
+
+.personal_content {
+  background: #f4f4f4;
+  /* flex: 1; */
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  /* gap: 1.5rem; */
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  flex-direction: column;
+}

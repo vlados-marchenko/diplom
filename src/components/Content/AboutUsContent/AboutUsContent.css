@@ -1,0 +1,51 @@
+.about_us_main {
+    padding: 0;
+    margin: 0 360px;
+    padding: 80px 0;
+}
+
+.about_school {
+    margin-bottom: 40px;
+}
+
+.about_school h1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #18212a;
+
+}
+
+.about_school_image {
+    float: left;
+    margin: 0 40px 20px 0;
+    border-radius: 10px;
+}
+.about_school p {
+    font-size: 20px;
+
+    margin-top: 30px;
+}
+
+
+
+.about_teacher h1 {
+    margin-bottom: 30px;
+
+}
+
+.about_teacher_photo {
+    float: left;
+    margin: 0 40px 20px 0;
+    border: 1px solid #dce3eb;
+    border-radius: 10px;
+}
+
+.about_teacher p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.about_teacher-list {
+    margin-left: 70px;
+}

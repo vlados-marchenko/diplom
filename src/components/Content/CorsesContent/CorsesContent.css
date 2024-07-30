@@ -1,0 +1,91 @@
+.courses_main {
+    margin: 0 360px;
+    padding: 80px 0;
+}
+
+.first_line_squares {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.first_line_squares .line-item {
+    background: #dae9f8;
+}
+
+.second_line_squares {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.second_line_squares .line-item {
+    background: #e5f58d;
+}
+
+.third_line_squares {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.third_line_squares .line-item {
+    background: #fad586;
+}
+
+.line-item {
+    border: 1px solid #18212a33;
+    border-radius: 25px;
+    width: 380px;
+    padding: 20px 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.line-item:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.title_card h1 {
+    color: #18212a;
+    /* margin-top: 10px; */
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.title_card h4 {
+    color: #65727c;
+    font-size: 18px;
+}
+
+.title_card {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+.level-price {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+
+.line-item h5 {
+    color: #31363b;
+    /* margin-left: 240px; */
+}
+
+.online_course {
+    width: 200px;
+    border-radius: 10px;
+    float: left;
+    margin: 5px 20px 10px 0;
+}
+
+.line-item p {
+    margin-top: 10px;
+}
